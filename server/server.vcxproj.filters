@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\other">
+      <UniqueIdentifier>{d15867f2-1d17-4d2e-9882-e23363ad35c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\raknet">
+      <UniqueIdentifier>{376ed3d0-eea1-4fe1-b75f-6a6c9af5764f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\pawn">
+      <UniqueIdentifier>{1bb97c81-2c61-468b-9e1c-732db3b3f08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\pawn\amx">
+      <UniqueIdentifier>{623bb0b5-6530-43be-9c1b-c1896827a878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pawn\amxplugin.cpp">
+      <Filter>Исходные файлы\pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="raknet\bitstream.cpp">
+      <Filter>Исходные файлы\raknet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="network.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn.hpp">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn\amx\amx.h">
+      <Filter>Исходные файлы\pawn\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn\amx\getch.h">
+      <Filter>Исходные файлы\pawn\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn\amx\sclinux.h">
+      <Filter>Исходные файлы\pawn\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="pawn\plugincommon.h">
+      <Filter>Исходные файлы\pawn</Filter>
+    </ClInclude>
+    <ClInclude Include="raknet\bitstream.h">
+      <Filter>Исходные файлы\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="raknet\networktypes.h">
+      <Filter>Исходные файлы\raknet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TypingIndicator.inc">
+      <Filter>Исходные файлы\other</Filter>
+    </None>
+    <None Include="Makefile">
+      <Filter>Исходные файлы\other</Filter>
+    </None>
+    <None Include="plugin.def">
+      <Filter>Исходные файлы\other</Filter>
+    </None>
+  </ItemGroup>
+</Project>

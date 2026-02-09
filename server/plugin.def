@@ -1,0 +1,8 @@
+﻿LIBRARY "SAMP-ChatDetector"
+VERSION 1.0
+EXPORTS
+	Load
+	Unload
+	AmxLoad
+	AmxUnload
+	Supports
