@@ -58,7 +58,7 @@ public:
         }
         else
         {
-            if (vkCode == VK_ESCAPE || vkCode == VK_RETURN)
+            if (vkCode == VK_ESCAPE || vkCode == VK_RETURN || vkCode == VK_F6)
             {
                 _chatboxOpen = false;
                 if (_callback != nullptr)
