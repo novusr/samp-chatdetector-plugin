@@ -5,13 +5,13 @@ Detects when players open or close the chatbox (T key).
 ## Using
 
 Place the plugin files in your server directory:
-- **Windows**: `SAMP-ChatDetector.dll` → `plugins/`
-- **Linux**: `SAMP-ChatDetector.so` → `plugins/`
-- **Client**: `SAMP-ChatDetector.asi` → SA-MP directory
+- **Windows**: `ChatDetector.dll` → `plugins/`
+- **Linux**: `ChatDetector.so` → `plugins/`
+- **Client**: `ChatDetector.asi` → SA-MP directory
 
 Add to `server.cfg`:
 ```
-plugins SAMP-ChatDetector
+plugins ChatDetector
 ```
 
 Include the header file in your script:

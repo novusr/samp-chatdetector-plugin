@@ -25,8 +25,8 @@ jobs:
       with:
         name: windows-bin
         path: |
-          binaries/SAMP-ChatDetector.asi
-          binaries/SAMP-ChatDetector.dll
+          binaries/ChatDetector.asi
+          binaries/ChatDetector.dll
 
   build-linux:
     runs-on: ubuntu-latest
@@ -46,7 +46,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: linux-bin
-        path: binaries/SAMP-ChatDetector.so
+        path: binaries/ChatDetector.so
 
   package:
     needs: [build-windows, build-linux]
@@ -70,5 +70,5 @@ jobs:
     - name: Upload All Binaries
       uses: actions/upload-artifact@v4
       with:
-        name: SAMP-ChatDetector-All
+        name: ChatDetector-All
         path: bin/*

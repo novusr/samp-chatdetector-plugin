@@ -1,4 +1,4 @@
-OUTFILE = "../binaries/SAMP-ChatDetector.so"
+OUTFILE = "../binaries/ChatDetector.so"
 
 COMMON_FLAGS = -D _GLIBCXX_USE_CXX11_ABI=0 -m32 -O3 -Ofast -fPIC -w -DNDEBUG -fpermissive
 COMPILE_FLAGS = $(COMMON_FLAGS) -c -idirafter "../common"
